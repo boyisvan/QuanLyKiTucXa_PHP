@@ -1,0 +1,68 @@
+
+body {
+    background-color: #fafafa;
+}
+
+.container2 {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 0 10px gray;
+    border-radius: 15px;
+
+}
+
+.form-add {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 20px;
+    background-color: #f4eded;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.form-add1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 20px;
+    background-color: #f4efef;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.btnn {
+    grid-column: span 3;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn_span2{
+    grid-column: span 2;
+}
+.btn1 {
+    grid-column: span 3;
+}
+
+.btnn:hover {
+    background-color: #45a049;
+}
+
+
+.back-button {
+    cursor: pointer;
+
+}
+

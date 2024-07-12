@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100dvh;
+    background-color: #fafafa;
+}
+.container1{
+    width: 80%;
+    height: 80vh;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 10px gray;
+    display: flex;
+    
+}
+.left,.right{
+    flex-basis: 50%;
+}
+.left {
+   background: url("https://th.bing.com/th/id/R.ba83fa7019103a24f80883985057034f?rik=YlOY4PDFUdskRQ&riu=http%3a%2f%2fhungyen.edu.vn%2fupload%2f46000%2ffck%2ffiles%2f1(48).jpg&ehk=%2fKP8%2fYxsVRNCrvs%2b26e8uSLLLCVRWhhZB%2fSUtVYbpOM%3d&risl=&pid=ImgRaw&r=0");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.right{
+    display: flex;
+    flex-direction: column; 
+    padding: 20px;
+    position: relative;
+}
+.right h2{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+label{
+    margin: 10px 0 10px 0 ;
+}
+.designby{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0.4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

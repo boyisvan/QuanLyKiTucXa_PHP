@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+
+.container1{
+    width: 80%;
+    height: 80dvh;
+    box-shadow: 0 0 10px gray;
+    overflow: hidden;
+    padding: 15px;
+    border-radius: 15px;
+}
+h2{
+    text-align: center;
+}
+.list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+.list a{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
